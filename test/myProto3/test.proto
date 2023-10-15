@@ -1,0 +1,43 @@
+syntax = "proto3";
+
+package fixbug;
+
+// 错误响应码
+message ResultCode {
+    int32 errcode = 1;
+    bytes errmsg = 2;
+}
+
+// 登录请求消息类    name+pwd
+message LoginRequest {
+    bytes name = 1;    // 1代表第1个字段
+    bytes pwd = 2;
+}
+
+// 登录响应消息类
+message LoginResponse {
+    ResultCode result_code = 1; // 登录失败响应
+    bool success = 2;
+}
+
+// 用户类
+message User{
+    bytes name = 1;
+    int32 age = 2;
+    enum Sex{
+        MAN = 0;
+        WOMAN = 1;
+    }
+    Sex sex = 3;
+}
+
+// 获取好友列表请求消息类
+message GetFriendListsRequest{
+    uint32 userid = 1;
+}
+
+// 获取好友列表响应消息类型
+message GetFriendListsResponse{
+    ResultCode result_code = 1;
+    repeated User friend_list = 2;  // 使用repeated定义了一个User列表
+}

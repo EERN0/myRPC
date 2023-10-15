@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="mprpc"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\example\;CMake Files\example\callee\;CMake Files\example\caller\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/mnt/d/CodeLib/mprpc/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/d/CodeLib/mprpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/d/CodeLib/mprpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/d/CodeLib/mprpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/d/CodeLib/mprpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/mnt/d/CodeLib/mprpc/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/d/CodeLib/mprpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/d/CodeLib/mprpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/d/CodeLib/mprpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/d/CodeLib/mprpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/mnt/d/CodeLib/mprpc/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/d/CodeLib/mprpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/d/CodeLib/mprpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/d/CodeLib/mprpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/d/CodeLib/mprpc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mprpc">
+				<Option output="/mnt/d/CodeLib/mprpc/lib/libmprpc.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/CodeLib/mprpc/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/CodeLib/mprpc/src/include"/>
+					<Add directory="/mnt/d/CodeLib/mprpc/example"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/d/CodeLib/mprpc/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 mprpc"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/d/CodeLib/mprpc/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/d/CodeLib/mprpc/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/d/CodeLib/mprpc/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mprpc/fast">
+				<Option output="/mnt/d/CodeLib/mprpc/lib/libmprpc.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/CodeLib/mprpc/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/CodeLib/mprpc/src/include"/>
+					<Add directory="/mnt/d/CodeLib/mprpc/example"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/d/CodeLib/mprpc/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 mprpc/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/d/CodeLib/mprpc/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/d/CodeLib/mprpc/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/d/CodeLib/mprpc/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="provider">
+				<Option output="/mnt/d/CodeLib/mprpc/bin/provider" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/CodeLib/mprpc/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/CodeLib/mprpc/src/include"/>
+					<Add directory="/mnt/d/CodeLib/mprpc/example"/>
+					<Add directory="/mnt/d/CodeLib/mprpc"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/d/CodeLib/mprpc/cmake-build-debug/example/callee/Makefile&quot;  VERBOSE=1 provider"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/d/CodeLib/mprpc/cmake-build-debug/example/callee/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/d/CodeLib/mprpc/cmake-build-debug/example/callee/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/d/CodeLib/mprpc/cmake-build-debug/example/callee/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="provider/fast">
+				<Option output="/mnt/d/CodeLib/mprpc/bin/provider" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/CodeLib/mprpc/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/CodeLib/mprpc/src/include"/>
+					<Add directory="/mnt/d/CodeLib/mprpc/example"/>
+					<Add directory="/mnt/d/CodeLib/mprpc"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/d/CodeLib/mprpc/cmake-build-debug/example/callee/Makefile&quot;  VERBOSE=1 provider/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/d/CodeLib/mprpc/cmake-build-debug/example/callee/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/d/CodeLib/mprpc/cmake-build-debug/example/callee/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/d/CodeLib/mprpc/cmake-build-debug/example/callee/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="consumer">
+				<Option output="/mnt/d/CodeLib/mprpc/bin/consumer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/CodeLib/mprpc/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/CodeLib/mprpc/src/include"/>
+					<Add directory="/mnt/d/CodeLib/mprpc/example"/>
+					<Add directory="/mnt/d/CodeLib/mprpc"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/d/CodeLib/mprpc/cmake-build-debug/example/caller/Makefile&quot;  VERBOSE=1 consumer"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/d/CodeLib/mprpc/cmake-build-debug/example/caller/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/d/CodeLib/mprpc/cmake-build-debug/example/caller/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/d/CodeLib/mprpc/cmake-build-debug/example/caller/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="consumer/fast">
+				<Option output="/mnt/d/CodeLib/mprpc/bin/consumer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/CodeLib/mprpc/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/CodeLib/mprpc/src/include"/>
+					<Add directory="/mnt/d/CodeLib/mprpc/example"/>
+					<Add directory="/mnt/d/CodeLib/mprpc"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/d/CodeLib/mprpc/cmake-build-debug/example/caller/Makefile&quot;  VERBOSE=1 consumer/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/d/CodeLib/mprpc/cmake-build-debug/example/caller/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/d/CodeLib/mprpc/cmake-build-debug/example/caller/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/d/CodeLib/mprpc/cmake-build-debug/example/caller/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/mnt/d/CodeLib/mprpc/example/callee/friendservice.cc">
+			<Option target="provider"/>
+		</Unit>
+		<Unit filename="/mnt/d/CodeLib/mprpc/example/caller/callfriendservice.cc">
+			<Option target="consumer"/>
+		</Unit>
+		<Unit filename="/mnt/d/CodeLib/mprpc/example/friend.pb.cc">
+			<Option target="provider"/>
+			<Option target="consumer"/>
+		</Unit>
+		<Unit filename="/mnt/d/CodeLib/mprpc/src/logger.cc">
+			<Option target="mprpc"/>
+		</Unit>
+		<Unit filename="/mnt/d/CodeLib/mprpc/src/mprpcapplication.cc">
+			<Option target="mprpc"/>
+		</Unit>
+		<Unit filename="/mnt/d/CodeLib/mprpc/src/mprpcchannel.cc">
+			<Option target="mprpc"/>
+		</Unit>
+		<Unit filename="/mnt/d/CodeLib/mprpc/src/mprpcconfig.cc">
+			<Option target="mprpc"/>
+		</Unit>
+		<Unit filename="/mnt/d/CodeLib/mprpc/src/mprpccontroller.cc">
+			<Option target="mprpc"/>
+		</Unit>
+		<Unit filename="/mnt/d/CodeLib/mprpc/src/rpcheader.pb.cc">
+			<Option target="mprpc"/>
+		</Unit>
+		<Unit filename="/mnt/d/CodeLib/mprpc/src/rpcprovider.cc">
+			<Option target="mprpc"/>
+		</Unit>
+		<Unit filename="/mnt/d/CodeLib/mprpc/src/zookeeperutil.cc">
+			<Option target="mprpc"/>
+		</Unit>
+		<Unit filename="/mnt/d/CodeLib/mprpc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/mnt/d/CodeLib/mprpc/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/mnt/d/CodeLib/mprpc/example/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\example\"/>
+		</Unit>
+		<Unit filename="/mnt/d/CodeLib/mprpc/example/callee/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\example\callee\"/>
+		</Unit>
+		<Unit filename="/mnt/d/CodeLib/mprpc/example/caller/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\example\caller\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

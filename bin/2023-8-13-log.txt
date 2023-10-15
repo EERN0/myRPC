@@ -1,0 +1,8 @@
+23:41:40 =>[info] ddddd
+23:41:40 =>[info] ddddd
+23:41:40 =>[info] service_name:FriendServiceRpc
+23:41:40 =>[info] method_name:GetFriendsList
+23:49:21 =>[info] ddddd
+23:49:21 =>[info] ddddd
+23:49:21 =>[info] service_name:FriendServiceRpc
+23:49:21 =>[info] method_name:GetFriendsList

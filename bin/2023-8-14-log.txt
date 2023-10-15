@@ -1,0 +1,7 @@
+16:5:30 =>[info] log_test friendService
+16:5:30 =>[info] service_name:FriendServiceRpc
+16:5:30 =>[info] method_name:GetFriendsList
+16:5:30 =>[info] zookeeper_init success!
+16:5:30 =>[info] znode create success  path:/FriendServiceRpc/GetFriendsList
+16:5:30 =>[info] RpcProvider start service at ip:[127.0.0.1] port:[8000]
+16:5:41 =>[info] zookeeper_init success!
